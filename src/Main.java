@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         int amount = 15000;
 
-        int x = 20;
+        int coefficient = 20;
 
-        int bonusMile = amount / x;
+        int bonusMile = amount / coefficient;
 
-        System.out.println ("Бонусные мили:" + bonusMile);
+        System.out.println("Бонусные мили:" + bonusMile);
 
     }
 }
